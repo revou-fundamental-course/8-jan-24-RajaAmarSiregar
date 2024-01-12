@@ -1,80 +1,25 @@
-<!DOCTYPE html> 
-<html> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Katik Persegi</title>
+</head>
+<body>
+    <header>
+        <h1>Kalkulator Luas dan Keliling Persegi</h1>
+        <h4>Welcome to kalkulator Luas dan Keliling Persegi</h4>
+        <p>Web ini digunakan untuk menghitung Luas dan Keliling Persegi dalam rangka menyelesaikan mini project Revou</p>
+    </header>
 
-<head> 
-	<title>Calculator</title> 
-
-	<!-- For styling -->
-	<style> 
-		table { 
-			border: 1px solid black; 
-			margin-left: auto; 
-			margin-right: auto; 
-            margin-top: 100px;
-		} 
-		
-		input[type="button"] { 
-			width: 100%; 
-			padding: 20px 40px; 
-			background-color: grey; 
-			color: white; 
-			font-size: 24px; 
-			font-weight: bold; 
-			border: none; 
-			border-radius: 5px; 
-		} 
-		
-		input[type="text"] { 
-			padding: 20px 30px; 
-			font-size: 24px; 
-			font-weight: bold; 
-			border: none; 
-			border-radius: 5px; 
-			border: 2px solid black; 
-		} 
-	</style> 
-</head> 
-
-<body> 
-
-	<!-- Create table -->
-	<table id="calcu"> 
-		<tr> 
-			<th colspan="4"> 
-				<input type="text" id="result"> 
-            </th> 
-		</tr> 
-
-		<tr> 
-            <td colspan="2"><input type="button" value="AC"></td> 
-			<td><input type="button" value="C"></td> 
-			<td><input type="button" value="*"></td>  
-		</tr> 
-		<tr> 
-			<td><input type="button" value="7"></td> 
-			<td><input type="button" value="8"></td> 
-			<td><input type="button" value="9"></td> 
-			<td><input type="button" value="/"></td> 
-		</tr> 
-        <tr> 
-			<td><input type="button" value="4"></td> 
-			<td><input type="button" value="5"></td> 
-			<td><input type="button" value="6"></td> 
-			<td><input type="button" value="+"></td> 
-		</tr> 
-		<tr> 
-			<td><input type="button" value="1"></td> 
-			<td><input type="button" value="2"></td> 
-			<td><input type="button" value="3"></td> 
-			<td><input type="button" value="-"></td> 
-		</tr> 
-        <tr> 
-			<td><input type="button" value="+-"></td> 
-			<td><input type="button" value="0"></td> 
-			<td><input type="button" value="."></td> 
-			<td><input type="button" value="="></td> 
-		</tr> 
-	</table> 
-</body> 
-
-</html> 
+    <div class="inputSection">
+        <label for="squareSide" id="lblSquareSide">Hitung Luas Persegi</label>
+        <input type="number" id="squareSide">
+    </div>
+    <div class="buttons">
+        <button id="countButton">Hitung</button>
+        <button id="resetButton">Reset</button>
+    </div>
+</body>
+</html>

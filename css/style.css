@@ -9,6 +9,7 @@ header {
 header h1 {
     color: #3A4D39;
     background-color: #ecf6eb;
+    padding: 35px;
 }
 
 header h4 {
