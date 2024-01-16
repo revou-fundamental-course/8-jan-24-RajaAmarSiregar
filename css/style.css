@@ -1,61 +1,14 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header {
+#header {
+    height: 80px;
+    width: 100%;
     text-align: center;
+    background: darkred;
 }
 
-header h1 {
-    color: #3A4D39;
-    background-color: #ecf6eb;
-    padding: 35px;
-}
-
-header h4 {
-    margin-top: 32px;
-    color: #3A4D39;
-}
-
-header p {
-    margin-top: -10px;
-    font-size: x-small;
-    color: #739072;
-    margin-bottom: 20px;
-}
-
-.inputSection {
-    display: flex;
-    flex-direction: column;
-}
-
-#squareSide {
-    margin-top: 10px;
-    outline: none;
-    border-radius: 8px;
-    border: solid #739072;
-    padding: 10px;
-}
-
-#squareSide:focus {
-    border: solid #3A4D39;
-}
-
-button {
-    margin-top: 5px;
-    background-color: #739072;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #4F6F52;
-}
-
-button:active {
-    background-color: #3A4D39;
-    transform: translateY(10px);
-}
