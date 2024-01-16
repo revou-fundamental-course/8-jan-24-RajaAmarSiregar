@@ -2,11 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/ok.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REVOU</title>
 </head>
 <body>
-    <div id="header">Kalkulator Matematik</div>
+    <div class="judul-container">
+        <h1 class="judul">Kalkulator Matematik</h1>
+    </div>
+    <br>
 
+    <div class="paragrap">
+        <h2> Welcome To Kalkulator Matematik</h2>
+        <p>Hai Ma Bro, Selamat Datang di Kalkulator Matematik<br> Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar :(</p>
+
+        <div class="button-persegi">
+            <button onclick="tampilkanJudulLuasPersegi()" class="button">Persegi</button>
+        </div>
+        <div class="button-panjang">
+            <button onclick="tampilkanJudulLuasPanjang()" class="button">P.Panjang</button>
+        </div>
+        <br>
+
+        <div class="judul_luas_persegi" style="display: none;"> 
+            <h1 class="persegi">Luas Persegi</h1>
+
+            <div class="image">
+                <img src="assets/persegi1.jpg" alt="bujursangkar">
+        
+                <div class="rumus_persegi">
+                    <div class="rumus">
+                        <p>Rumus Luas Persegi yaitu :</p>
+                        <h3 class="h3">L = S x S</h3>
+                        <p>Dimana :</p>
+                        <p>L = Luas</p>
+                        <p>S = Sisi</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <div class="judul_luas_panjang" style="display: none;"> 
+            <h1 class="panjang">Luas Keliling</h1>
+
+            <div class="image">
+                <img src="assets/persegi1.jpg" alt="bujursangkar">
+        
+                <div class="rumus_panjang">
+                    <div class="rumus">
+                        <p>Rumus Keliling Persegi yaitu :</p>
+                        <h3 class="h3">K = 4 x S</h3>
+                        <p>Dimana :</p>
+                        <p>K = Keliling</p>
+                        <p>S = Sisi</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
 </body>
 </html>
