@@ -14,18 +14,24 @@ function tampilkanJudulLuasPanjang() {
     judulLuasPanjang.style.display = 'block';
 }
 
-function luas() {
-    var s = document.getElementById('s').value;
+function hitungLuas() {
+    var sisi = document.getElementById('inputSisi').value;
+    var luas = sisi * sisi;
+    document.getElementById('hasilLuas').innerHTML = 'L = ' + sisi + ' x ' + sisi + ' = ' + luas;
+  }
 
-    var luas = s*s;
+  function resetForm() {
+    document.getElementById('inputSisi').value = '';
+    document.getElementById('hasilLuas').innerHTML = '';
+  }
 
-    document.getElementById('luas').innerHTML = luas;
-}
+  function hitungKeliling() {
+    var sisiKeliling = document.getElementById('inputSisiKeliling').value;
+    var keliling = 4 * sisiKeliling;
+    document.getElementById('hasilKeliling').innerHTML = 'K = 4 x ' + sisiKeliling + ' = ' + keliling;
+  }
 
-function kel() {
-    var s = document.getElementById('s').value;
-
-    var kel = 4*s;
-
-    document.getElementById('kel').innerHTML = kel;
-}
+  function resetKeliling() {
+    document.getElementById('inputSisiKeliling').value = '';
+    document.getElementById('hasilKeliling').innerHTML = '';
+  }

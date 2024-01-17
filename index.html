@@ -34,13 +34,20 @@
         
                 <div class="rumus_persegi">
                     <div class="rumus">
-                        <p>Rumus Luas Persegi yaitu :</p>
-                        <h3 class="h3">L = S x S</h3>
-                        <p>Dimana :</p>
-                        <p>L = Luas</p>
-                        <p>S = Sisi</p>
+                      <p>Rumus Luas Persegi yaitu :</p>
+                      <h3 class="h3">L = S x S</h3>
+                      <p>Dimana :</p>
+                      <p>L = Luas</p>
+                      <p>S = Sisi</p>
                     </div>
-                </div> 
+                
+                    <h1>Hitung Luas Persegi</h1>
+                    <input class="input_luas" type="number" id="inputSisi" placeholder="Masukkan panjang sisi" />
+                    <br>
+                    <button class="hitung_luas" onclick="hitungLuas()">Hitung Luas</button>
+                    <button class="reset" onclick="resetForm()">Reset</button>
+                    <p id="hasilLuas"></p>
+                  </div>
             </div>
         </div>
 
@@ -58,6 +65,14 @@
                         <p>K = Keliling</p>
                         <p>S = Sisi</p>
                     </div>
+                    <div class="rumus_keliling">
+                        <h1>Hitung Keliling Persegi</h1>
+                        <input class="input_luas" type="number" id="inputSisiKeliling" placeholder="Masukkan panjang sisi" />
+                        <br>
+                        <button class="hitung_luas" onclick="hitungKeliling()">Hitung Keliling</button>
+                        <button class="reset" onclick="resetKeliling()">Reset</button>
+                        <p id="hasilKeliling"></p>
+                      </div>
                 </div> 
             </div>
         </div>

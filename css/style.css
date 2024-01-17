@@ -25,6 +25,7 @@ body {
 
 .paragrap {
     max-width: 1450px;
+    height: 1150px;
     text-align: center;
     color: #333;
     background-color: #f4f4f4;
@@ -92,4 +93,71 @@ h3 {
     text-align: center;
 }
 
+.judul_luas_panjang {
+    max-width: 1800px;
+    text-align: center;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(6, 93, 193, 0.352);
+}
+
+.panjang {
+    height: 80px;
+    width: 97,5%;
+    font-size: 2em;
+    color: #333;
+    background-color: #ffc107;
+    padding: 30px;
+    margin: -10px;
+    line-height: 80px;
+}
+
+.input_luas {
+  padding: 10px;
+  margin: 10px 0;
+  width: 1000px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.hitung_luas {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+  .reset {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+  .hitung_luas:hover {
+    background-color: #45a049;
+  }
+
+  .reset:hover {
+    background-color: #be920d;
+  }
+
+#hasilLuas {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
 
